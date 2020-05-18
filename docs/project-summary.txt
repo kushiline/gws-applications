@@ -1,0 +1,3 @@
+-- What are we going to do
+-- How are we going to do it (what technologies, what architecture)
+-- Are we making any tradeoffs? Are there alternate approaches that need to be considered?
