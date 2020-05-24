@@ -1,0 +1,8 @@
+* What langauge are we using, and why?
+* What discord API are we using?
+* How is a failure in the bot handled? Suppose it crashes at some point in the process of handling an application...
+** How will we find out about this?
+** What, if anything, will we need to do about it?
+* Where will the bot run? On what hardware?
+* Does the bot need persistent storage?
+* What features might we foresseably want in the future?
