@@ -1,3 +1,18 @@
--- What are we going to do
--- How are we going to do it (what technologies, what architecture)
--- Are we making any tradeoffs? Are there alternate approaches that need to be considered?
+-- What is the thing we are going to produce
+A discord bot to handle applications for a private community server. The current approach is for prospective users to post applications to a special channel, where mods review and handle the applications. We want to replace the repetitive steps in this process with a bot, to increase the efficiency of time spent on mod duties.
+
+-- Why is that needed
+The current process is ... not tedious per se, but more tedious than necessary. Each application takes several clicks on several screens to handle, and forgetting any step results in poor user experience for the applicant. The application is also not held with as much privacy as we'd like - other white names who are watching the application channel can see applications as they are posted.
+
+-- Implementation design
+The proposed workflow is as follows:
+* New user reads rules, including instructions on how to apply
+* As per rules, the user fills out their application and DMs it to this bot
+* Upon receiving the application, the bot copies it to a mods-only channel for review
+* The mods vote on the application using emoji reactions
+* When enough votes are cast, the bot renders a decision according to a configured rule
+* The bot applies the appropriate decision and notifies the user accordingly.
+
+-- How are we going to accomplish that?
+
+TBD
